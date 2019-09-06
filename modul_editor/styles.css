@@ -1,0 +1,92 @@
+
+a:link { font-weight:bold; color:#000000; text-decoration:none }  	/* für Verweise zu noch nicht besuchten Seiten */
+a:visited { font-weight:bold; color:#000000; text-decoration:none } 	/* für Verweise zu bereits besuchten Seiten */
+a:hover { /* für Verweise, während der Anwender mit der Maus darüber fährt */
+	font-weight:bold; 
+	border-color:#000000;
+	border-width:1px;
+	border-style:dotted; 
+	text-decoration:none 
+} 	
+a:active { font-weight:bold; color:#AFAFAF; text-decoration:underline } 	/* für gerade angeklickte Verweise */
+a:focus { font-weight:bold; color:#00E000; text-decoration:underline } 	/* für Verweise, die den Fokus erhalten, z.B. durch"Durchsteppen" mit der Tabulatortaste */
+
+
+body, table, td, tr, ul, ol, p, div, blockquote{
+	font-family: Verdana, Arial, sans-serif;
+	font-size:  10px;
+} 
+
+.menu:hover{
+	font-weight:bold; 
+	border:1px;
+	border-style:solid;
+	border-left-color:#FFFFFF;
+	border-top-color:#FFFFFF;
+	border-right-color:#000000;
+	border-bottom-color:#000000;
+}
+
+.menu:link { 
+	font-size:12px; 
+	font-weight:bold; 
+	color:#000000; 
+	text-decoration:none;
+} 
+
+table.haupt{
+  border:solid;
+  border-width:medium;
+  border-color:#D4D0C8;
+}
+
+
+table.massage{
+  border-color:black;
+
+  border-left-width:0.1em;
+  border-left-style:solid;
+  padding-left:0.5em;
+  
+  border-top-width:0.1em;
+  border-top-style:solid;
+  padding-top:2.5em;
+  
+  border-right-width:0.2em;
+  border-right-style:solid;
+  padding-right:5em;
+ 
+  border-bottom-width:0.2em;
+  border-bottom-style:solid;
+  padding-bottom:5em;
+
+  background-color:#D6D3CE;
+}
+
+
+
+.pfadfocus{
+	background-color: #0033B2;
+	color: #000000;
+	border-width:1px;
+}
+
+.pfad{
+	background-color: #664CFF;
+	color: #FFFFFF;
+	border-width:1px;
+}
+
+.overtxt{
+	background-color: #D4D0C8;
+	color: #000000;
+	border-width:1px;
+	border-color:#808080;	
+}
+
+#rundrum {
+  border-width:1px;
+  border-style:solid;
+  border-color:black;
+  background-color: #FFCC00;
+}
